@@ -25,9 +25,9 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="azureml-examples"
+GROUP="ml-cranium-poc-rg"
 LOCATION="eastus"
-WORKSPACE="main"
+WORKSPACE="ML_Cranium_WS"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
